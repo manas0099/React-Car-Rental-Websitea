@@ -1,0 +1,36 @@
+.login__container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+}
+
+.login__form {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login__form h2 {
+  text-align: center;
+  color: #000d6b;
+  margin-bottom: 2rem;
+}
+
+.login__form .form-group {
+  margin-bottom: 1rem;
+}
+
+.login__form button {
+  background: #000d6b;
+  border: none;
+  margin-top: 1rem;
+}
+
+.login__form button:hover {
+  background: #f9a826;
+} 
